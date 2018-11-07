@@ -1,5 +1,25 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+p {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+.container {
+  background-color: #eff3f4;
+  padding: 20px;
+  margin: 0 auto;
+  width: 900px;
+}
+.leftImg {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.rightImg {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 /* 回答はここに書いてね */

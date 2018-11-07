@@ -32,26 +32,26 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="small common">common</div>
+            <div class="small error">error</div>
+            <div class="small disabled">disabled</div>
+            <div class="small shadow">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="middle common">common</div>
+            <div class="middle error">error</div>
+            <div class="middle disabled">disabled</div>
+            <div class="middle shadow">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="large common">common</div>
+            <div class="large error">error</div>
+            <div class="large disabled">disabled</div>
+            <div class="large shadow">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,7 +99,70 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <div class="container">
+              <h1 class="formTitle">
+                <p class="titleText">Form Exercise</p>
+              </h1>
+              <form class="clearfix" action="" method="get" autocomplete="on">
+                <div class="main">
+                  <ul class="inputList">
+                    <li class="list clearfix">
+                      <div class="listTitle">名前<span class="required">*</span></div>
+                      <div class="listBox">
+                        <input class="formBasis" type="text" name="name" required>
+                      </div>
+                    </li>
+                    <li class="list clearfix">
+                      <div class="listTitle">性別</div>
+                      <div class="listBox radioBasis">
+                        <label class="radioBasis">
+                          <input class="radioGender" type="radio" name="gender" value="man"><span class="radioGenderText">男性</span>
+                        </label>
+                        <label class="radioBasis">
+                          <input class="radioGender" type="radio" name="gender" value="woman"><span class="radioGenderText">女性</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li class="list clearfix">
+                      <div class="listTitle">出身</div>
+                      <div class="listBox selectBox">
+                        <select class="select" name="from">
+                          <option value="tokyo" selected>東京</option>
+                          <option value="saitama">埼玉</option>
+                          <option value="chiba">千葉</option>
+                          <option value="kanagawa">神奈川</option>
+                        </select>
+                      </div>
+                    </li>
+                    <li class="list clearfix">
+                      <div class="listTitle">Eメール<span class="required">*</span></div>
+                      <div class="listBox">
+                        <input class="formBasis" id="email" type="email" name="email" placeholder="ex) hoge@gmail.com" required>
+                      </div>
+                    </li>
+                    <li class="list clearfix">
+                      <div class="listTitle">電話番号</div>
+                      <div class="listBox">
+                        <input class="formBasis" id="tell" type="text" name="tell" placeholder="ex) 08012345678">
+                      </div>
+                    </li>
+                    <li class="list clearfix">
+                      <div class="listBox">
+                        <label>
+                          <input class="checkAge" type="checkbox" name="check"><span class="checkText">20歳以上です</span>
+                        </label>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="buttonBox">
+                    <button class="button" type="submit">送信</button>
+                  </div>
+                </div>
+                <div class="inquiry">
+                  <textarea class="q8_textarea formBasis" name="message" placeholder="何かあれば入力してください。"></textarea>
+                </div>
+              </form>
+            </div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>

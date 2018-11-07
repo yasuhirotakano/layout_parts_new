@@ -1,5 +1,237 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+input, button, textarea, select {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.small {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 15px;
+}
+.middle {
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0 20px;
+}
+.large {
+  border-radius: 7px;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 38px;
+  padding: 0 25px;
+}
+.common {
+  background-color: #00bcd4;
+  color: #fff;
+}
+.error {
+  background-color: #ff4081;
+  color: #fff;
+  margin-left: 10px;
+}
+.disabled {
+  background-color: #e5e5e5;
+  color: #fff;
+  margin-left: 10px;
+}
+.shadow {
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12), 0 1px 4px rgba(0,0,0,.12);
+  margin-left: 10px;
+}
+.common:hover, .error:hover, .shadow:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+.container {
+  background-color: #ecf1f2;
+  padding: 20px;
+  margin: 0 auto;
+  width: 700px;
+}
+.formTitle {
+  position: relative;
+  margin-bottom: 20px;
+}
+.formTitle:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+.titleText {
+  background-color: #ecf1f2;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 10px;
+  display: inline-block;
+}
+.formBasis {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  padding: 5px;
+  width: 100%;
+}
+.formBasis:focus {
+  box-shadow: 0 0 6px #00bcd4;
+}
+.main {
+  float: left;
+  width: 300px;
+}
+.inputList {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.list {
+  margin-top: 20px;
+}
+.list:first-child {
+  margin-top: 0;
+}
+.listTitle {
+  float: left;
+  text-align: right;
+  line-height: 25px;
+  width: 100px;
+}
+.listBox {
+  float: right;
+  width: 180px;
+}
+.required {
+  color: #ff0000;
+}
+.selectBox {
+  position: relative;
+}
+.selectBox:after {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  transform: rotate(45deg);
+  content: "";
+}
+.select {
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 5px;
+  width: 100%;
+  line-height: 12px;
+}
+.radioBasis {
+  text-align: left;
+  padding-top: 3px;
+}
+.radioBasis:last-child {
+  padding-left: 3px;
+}
+.radioGender,　.checkAge {
+  display: none;
+}
+.radioGenderText {
+  padding-left: 20px;
+  position:relative;
+}
+.radioGenderText:before {
+  border-radius: 50%;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.radioGender:checked + .radioGenderText:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  background: #00bcd4;
+  border-radius: 50%;
+}
+.checkText {
+  padding-left: 23px;
+  position:relative;
+}
+.checkText:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.checkAge:checked + .checkText:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: 7px;
+  width: 8px;
+  height: 16px;
+  transform: rotate(40deg);
+  border-bottom: 3px solid #00bcd4;
+  border-right: 3px solid #00bcd4;
+}
+.buttonBox {
+  text-align: right;
+}
+.button {
+  background-color: #00bcd4;
+  color: #fff;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 5px;
+  line-height: 26px;
+}
+.inquiry {
+  float: right;
+  width: 380px;
+}
+.q8_textarea {
+  height: 203px;
+  padding: 10px;
+  resize: none;
+  width: 100%;
+}
 /* 回答はここに書いてね */

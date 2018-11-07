@@ -11,9 +11,9 @@ p {
   line-height: 16px;
 }
 .container {
-  width: 940px;
   background-color: #eff3f4;
   margin: 0 auto;
+  width: 940px;
 }
 .content {
   background-color: #3274ae;
