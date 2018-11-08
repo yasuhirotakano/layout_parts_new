@@ -10,7 +10,7 @@
 .content:first-child {
   padding-bottom: 0;
 }
-.content div {
+.column-basis {
   display: table-cell;
   padding: 20px;
   text-align: center;

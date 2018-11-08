@@ -224,6 +224,14 @@ input, button, textarea, select {
   border-radius: 5px;
   line-height: 26px;
 }
+.button:active {
+  background-color: #fff;
+  color: #00bcd4;
+}
+.button:hover {
+  cursor: pointer;
+  cursor: hand;
+}
 .inquiry {
   float: right;
   width: 380px;

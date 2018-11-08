@@ -1,29 +1,29 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.calorie-table {
   border-collapse:  collapse;
   table-layout: fixed;
   width: 100%;
 }
-td,th{
+.calorie-table td, .calorie-table th{
   border: solid #dedede 1px;
   text-align: center;
   padding: 10px;
 }
-th {
+.calorie-table th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
-tr:nth-child(even) {
+.calorie-table tr:nth-child(even) {
   background-color: #ecf1f2;
 }
-tbody tr:last-child {
+.calorie-table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
-td {
+.calorie-table td {
   font-size: 16px;
   line-height: 22px;
 }

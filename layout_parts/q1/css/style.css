@@ -6,20 +6,24 @@
   content: "";
   clear: both;
 }
-p {
+.text {
   font-size: 16px;
   line-height: 16px;
 }
 .container {
   background-color: #eff3f4;
   margin: 0 auto;
-  width: 940px;
+  width: 900px;
+  padding: 20px;
 }
 .content {
   background-color: #3274ae;
   float: left;
-  margin: 20px 0 20px 20px;
+  margin-left: 20px;
   padding: 20px;
+}
+.content:first-child {
+  margin-left: 0;
 }
 .main {
   background-color: #eaf4ff;
